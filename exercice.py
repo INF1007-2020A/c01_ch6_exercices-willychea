@@ -72,28 +72,28 @@ def print_recipe(ingredients) -> None:
 
 
 def main() -> None:
-    #print(f"On essaie d'ordonner les valeurs...")
-    #print(order())
+    print(f"On essaie d'ordonner les valeurs...")
+    print(order())
 
-    #print(f"On vérifie les anagrammes...")
-    #print(anagrams())
+    print(f"On vérifie les anagrammes...")
+    print(anagrams())
 
-    #my_list = [3, 3, 5, 6, 1, 1]
-    #print(f"Ma liste ne contient pas de doublons. {contains_doubles(my_list)}")
+    my_list = [3, 3, 5, 6, 1, 1]
+    print(f"Ma liste ne contient pas de doublons. {contains_doubles(my_list)}")
 
-    #grades = {"Bob": [90, 65, 20], "Alice": [85, 75, 83]}
-    #name, result = best_grades(grades)
-    #print(f"{name} a la meilleure moyenne: {result}")
+    grades = {"Bob": [90, 65, 20], "Alice": [85, 75, 83]}
+    name, result = best_grades(grades)
+    print(f"{name} a la meilleure moyenne: {result}")
 
     sentence = input('Donnez une phrase:')
     print(type(histogram(sentence)))
     print(histogram(sentence))
 
-    #print("On enregistre les recettes...")
-    #recipes = get_recipes()
+    print("On enregistre les recettes...")
+    recipes = get_recipes()
 
-    #print("On affiche une recette au choix...")
-    #print_recipe(recipes)
+    print("On affiche une recette au choix...")
+    print_recipe(recipes)
 
 
 if __name__ == '__main__':
